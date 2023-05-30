@@ -1,0 +1,181 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+body{
+    background-color: #1e1c2a;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 30px 170px; */
+    padding-left: 30px;
+    padding-top: 170px;
+    padding-right: 30px;
+    padding-bottom: 170px;
+}
+.logo{
+    color: coral;
+    font-weight: 600;
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    padding: 10px 20px;
+}
+/* home section */
+#home .bin{
+    padding:100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+width: 500px;
+
+}
+.home-text h1{
+    font-size: 50px;
+    color: #ff702a;
+}
+.home-text h2{
+    margin: 15px 5px;
+}
+ .btn{
+    background-color: #ff702a;
+    padding: 10px 20px;
+    border-radius: 10px;
+ }   
+/* home section ends */
+
+/* About section */
+#about{
+    padding:100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text span{
+    color: #ff702a;
+}
+.about-img{
+width: 500px;
+}
+.about-text h1{
+    font-size: 20px;
+    color: #ff702a;
+}
+.about-text h2{
+    margin: 15px 5px;
+}
+ .btn{
+    background-color: #ff702a;
+    padding: 10px 20px;
+    border-radius: 10px;
+ }   
+/* home about section ends */
+
+/* menu section */
+.menu-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+padding: 40px 100px;
+gap: 48px;
+}
+.menu .heading span{
+    color: #ff702a;
+}
+.box{
+    background-color: #feeee7;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.box h2 {
+    color: black;
+}
+.box span {
+    color: #ff702a;
+}
+.box img{
+    background-color: #feeee7;
+}
+/* menu section ends */
+
+/* Service section */
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    padding: 40px 100px;
+    gap: 48px;
+    }
+    .Service .heading span{
+        color: #ff702a;
+    }
+    .Serv-ice{
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+        .heading{
+        align-items: center;
+    }
+    .img1{
+        width: 70px;
+        height: auto;
+    }
+    .heading{
+        text-align: center;
+    }
+    /* Service section ends */
+
+    /* Quality section  */
+
+    .Quality-container{
+            width: 500px;
+            height: 150px;
+            background-color: #feeee7;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+          }
+.Quality h2{
+    color: black;
+}
+.Quality{
+    text-align: center;
+    padding: 30px 500px
+}
+.Footer-container{
+    margin-top: 50px;
+    padding: 200px
+}
+.Footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+.Footer-container .links{
+    color: #ff702a;
+}
+.Footer .dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#ff702a ;
+    display: inline-block;
+}
+.links h2::after{
+    content: "";
+}
